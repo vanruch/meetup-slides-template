@@ -1,333 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>WarsawJS Meetup: Slides template</title>
+  <title>WarsawJS Meetup: Slides template</title>
 
-    <meta charset="utf-8"/>
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-    <meta name="viewport" content="width=device-width"/>
-    <link href="images/icons/warsawjs-logo-transparent-32x32.png" rel="icon" type="image/png" sizes="32x32"/>
+  <meta charset="utf-8"/>
+  <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+  <meta name="viewport" content="width=device-width"/>
+  <link href="images/icons/warsawjs-logo-transparent-32x32.png" rel="icon" type="image/png" sizes="32x32"/>
 
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,900&amp;subset=latin-ext" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,900&amp;subset=latin-ext" rel="stylesheet"/>
 
-    <!-- Shower Theme -->
-    <link rel="stylesheet" href="vendors/shower-ribbon/styles/screen-16x9.css"/>
-    <link rel="stylesheet" href="vendors/shower-warsawjs/styles/main.css"/>
+  <!-- Shower Theme -->
+  <link rel="stylesheet" href="vendors/shower-ribbon/styles/screen-16x9.css"/>
+  <link rel="stylesheet" href="vendors/shower-warsawjs/styles/main.css"/>
 
-    <!-- Prism.js -->
-    <link rel="stylesheet" href="vendors/prism/prism.css"/>
-    <link rel="stylesheet" href="vendors/prism/custom-prism.css"/>
+  <!-- Prism.js -->
+  <link rel="stylesheet" href="vendors/prism/prism.css"/>
+  <link rel="stylesheet" href="vendors/prism/custom-prism.css"/>
 </head>
 <body class="shower list">
-    <header class="caption">
-        <h1>WarsawJS Meetup: Slides template</h1>
-        <p>We talk about JavaScript. Each month in Warsaw, Poland.</p>
-    </header>
+<header class="caption">
+  <h1>WarsawJS Meetup: Slides template</h1>
+  <p>We talk about JavaScript. Each month in Warsaw, Poland.</p>
+</header>
 
-    <section class="slide front-page">
-        <div class="logo">
-            <!-- Logo WarsawJS -->
-            <img src="vendors/shower-warsawjs/images/logo.svg" width="350" alt=""/>
-        </div>
-        <div class="details">
-            <!-- 1. Avatar -->
-            <img src="images/my-avatar.jpg" alt="Speaker"/>
+<section class="slide front-page">
+  <div class="logo">
+    <!-- Logo WarsawJS -->
+    <img src="vendors/shower-warsawjs/images/logo.svg" width="350" alt=""/>
+  </div>
+  <div class="details">
+    <!-- 1. Avatar -->
+    <img src="images/my-avatar.jpg" alt="Speaker"/>
 
-            <!-- 2. Speaker -->
-            <h2>Speaker name</h2>
+    <!-- 2. Speaker -->
+    <h2>Ivan Rukhavets</h2>
+    <p>Full stack blockchain dev @ Ethworks</p>
 
-            <!-- 3. Presentation title -->
-            <h2><strong>"WarsawJS Meetup: Slides template" [PL/EN]</strong></h2>
+    <!-- 3. Presentation title -->
+    <h2><strong>Trening Architekta — Bezpieczeństwo aplikacji webowych</strong></h2>
 
-            <!-- 4. Presentation date -->
-            <h2>2018-XX-XX</h2>
+    <!-- 4. Presentation date -->
+    <h2>2020-01-26</h2>
 
-            <!-- 5. Contact the speaker -->
-            <h2><a href="http://twitter.com/speaker">@speaker</a></h2>
-        </div>
-    </section>
+    <!-- 5. Contact the speaker -->
+    <h2><a href="http://twitter.com/speaker">@ivanrukhov</a></h2>
+  </div>
+</section>
+<section class="slide">
+  <h2>WiFi</h2>
+  <p><strong>HubHub Guest</strong></p>
+  <p><strong>amazingspace</strong></p>
+  <h2>Slack</h2>
+  <p>#workshop-40-2</p>
+</section>
 
-    <section class="slide compact">
-        <h2>List Navigation</h2>
-        <ol>
-            <li>Ennui keffiyeh thundercats</li>
-            <li class="next">Jean shorts biodiesel</li>
-            <li class="next">Terry richardson, swag blog</li>
-            <li class="next">Locavore umami vegan helvetica</li>
-            <li class="next">Fingerstache kale chips</li>
-        </ol>
-        <p class="next">Before they sold out master</p>
-    </section>
+<section class="slide compact">
+  <h2>Web apps attack vectors</h2>
+  <ol>
+    <li>Access to the server</li>
+    <li class="next">Application malfunction</li>
+    <li class="next">Access to client's data</li>
+    <li class="next">Access to restricted information</li>
+  </ol>
+</section>
 
-    <section class="slide compact">
-        <h2>Slide Header</h2>
+<section class="slide compact">
+  <h2>Cross-Site Scripting (XSS)</h2>
 
-        <p>Echo Park 8-bit sustainable umami deep v Kickstarter. DIY cliche typewriter brunch, Odd Future sriracha pickled aesthetic. Farm-to-table bespoke fingerstache, kale chips umami brunch letterpress.</p>
-        <p>Whatever authentic disrupt, you probably haven't heard of them direct trade mlkshk Etsy. Gluten-free roof party plaid four loko quinoa.</p>
-        <p class="note">Echo Park 8-bit sustainable umami deep v Kickstarter.</p>
-    </section>
+  <p>Cross-site scripting (XSS) is a vulnerability that permits an attacker to inject code (typically HTML or
+    JavaScript) into contents of a website not under the attacker's control. When a victim views such a page, the
+    injected code executes in the victim's browser. Thus, the attacker has bypassed the browser's same origin policy
+    and can steal victim's private information associated with the website in question.</p>
+</section>
 
-    <section class="slide compact">
-        <h2>Inline Elements</h2>
+<section class="slide compact">
+  <h2>Possible XSS attacks</h2>
 
-        <p>Retro meh brunch <a href="">aesthetic</a> Cosby sweater Shoreditch. Banksy Tumblr
-            <strong>sriracha</strong>, flexitarian pug chia master cleanse vinyl
-            <em>wayfarers</em> fanny pack bespoke Helvetica <b>roof</b> party. Messenger bag retro cred
-            <i>Portland</i> next level. Yr stumptown Schlitz Carles deep v small batch. Hella sustainable messenger bag,
-            <mark>leggings</mark>
-            skateboard literally<sup>1</sup> bicycle rights H<sub>2</sub>0 mumblecore banh mi DIY VHS. Semiotics four loko street art asymmetrical. Asymmetrical
-            <code>&lt;paleo&gt;</code> you probably haven’t heard of.
-        </p>
+  <ol>
+    <li>Reflected XSS - make a user click a link that executes a script</li>
+    <li class="next">File Upload XSS - upload a file that allows you to execute arbitrary script</li>
+    <li class="next">Stored XSS - make server to serve a script</li>
+  </ol>
+</section>
 
-        <footer class="footer">
-            <p>Retro meh brunch <a href="">aesthetic</a> Cosby sweater Shoreditch. Banksy Tumblr
-                <strong>sriracha</strong>, flexitarian pug chia master cleanse vinyl
-                <em>wayfarers</em> fanny pack bespoke Helvetica <b>roof</b> party. Messenger bag retro cred
-                <i>Portland</i> next level. Yr stumptown Schlitz Carles deep v small batch. Hella sustainable messenger bag,
-                <mark>leggings</mark>
-                skateboard literally<sup>1</sup> bicycle rights H<sub>2</sub>0 mumblecore banh mi DIY VHS. Semiotics four loko street art asymmetrical. Asymmetrical
-                <code>&lt;paleo&gt;</code> you probably haven’t heard of.
-            </p>
-        </footer>
-    </section>
+<section class="slide compact">
+  <h2>SQL injections</h2>
 
-    <section class="slide compact">
-        <h2>Columns</h2>
-        <p class="double">Echo Park 8-bit sustainable umami deep v Kickstarter. DIY cliche typewriter brunch, Odd Future sriracha pickled aesthetic. Farm-to-table bespoke fingerstache, kale chips umami brunch American Apparel letterpress. Whatever authentic disrupt, you probably haven't heard of them direct trade mlkshk Etsy. Gluten-free roof party plaid American Apparel four loko quinoa. Echo Park 8-bit sustainable.</p>
-    </section>
+  <p>Execute arbitrary SQL on the server</p>
+  <img src="https://imgs.xkcd.com/comics/exploits_of_a_mom.png" width="900" alt=""/>
+</section>
 
-    <section class="slide">
-        <h2>Quotes</h2>
-        <blockquote>
-            <p>Flannel bicycle rights locavore selfies skateboard. Authentic fanny pack paleo four loko bespoke. Artisan tattooed chia XOXO ennui, lomo disrupt 8-bit art party Tumblr scenester.</p>
-        </blockquote>
-        <figure>
-            <blockquote>
-                <p>Post-ironic fashion axe flexitarian, Tonx narwhal messenger bag Tumblr. Portland gentrify deep v kale chips literally.</p>
-            </blockquote>
-            <figcaption>Yours Truly</figcaption>
-        </figure>
-    </section>
+<section class="slide compact">
+  <h2>Client-State Manipulation</h2>
 
-    <section class="slide compact">
-        <h2>Nested Lists</h2>
-        <ol>
-            <li>Literally viral vegan, ugh drinking vinegar photo booth</li>
-            <li>Wes Anderson chillwave Marfa pour-over Etsy banh mi</li>
-            <li>Ethnic polaroid lo-fi iPhone ennui
-                <ul>
-                    <li>Yr wayfarers before they sold out Kickstarter asymmetrical</li>
-                    <li>Irony flexitarian readymade quinoa, kogi bespoke meggings narwhal</li>
-                    <li>Skateboard Etsy twee artisan Echo Park</li>
-                </ul>
-            </li>
-            <li>Tonx kitsch fingerstache readymade, retro single-origin coffee</li>
-        </ol>
-    </section>
+  <p>
+    When a user interacts with a web application, they do it indirectly through a browser. When the user clicks a
+    button or submits a form, the browser sends a request back to the web server. Because the browser runs on a
+    machine that can be controlled by an attacker, the application must not trust any data sent by the browser.
+  </p>
 
-    <section class="slide compact">
-        <h2>Simple Table</h2>
-        <table>
-            <tr>
-                <th scope="col">Gentrify</th>
-                <th>Twee</th>
-                <th>Artisan</th>
-                <th>Banksy</th>
-            </tr>
-            <tr>
-                <th scope="row">Messenger</th>
-                <td>Mixtape</td>
-                <td>Small batch</td>
-                <td>Bicycle rights</td>
-            </tr>
-            <tr>
-                <th scope="row">Meggings</th>
-                <td>Freegan</td>
-                <td>Retro biodiesel</td>
-                <td>Slow-carb</td>
-            </tr>
-            <tr>
-                <th scope="row">Vegan</th>
-                <td>Occupy</td>
-                <td>Normcore</td>
-                <td>Put a bird on it</td>
-            </tr>
-            <tr>
-                <th scope="row">Next level</th>
-                <td>Selfies</td>
-                <td>Sustainable</td>
-                <td>Organic</td>
-            </tr>
-            <tr>
-                <th scope="row">Umami</th>
-                <td>Asymmetrical</td>
-                <td>Keytar</td>
-                <td>Craft beer</td>
-            </tr>
-            <tr>
-                <th scope="row">Biodiesel</th>
-                <td>Haven’t heard</td>
-                <td>Skateboard</td>
-                <td>Farm-to-table</td>
-            </tr>
-        </table>
-    </section>
+</section>
 
-    <section class="slide compact">
-        <h2>Striped Table</h2>
-        <table class="striped">
-            <tr>
-                <th scope="col">Gentrify</th>
-                <th>Twee</th>
-                <th>Artisan</th>
-                <th>Banksy</th>
-            </tr>
-            <tr>
-                <th scope="row">Messenger</th>
-                <td>Mixtape</td>
-                <td>Small batch</td>
-                <td>Bicycle rights</td>
-            </tr>
-            <tr>
-                <th scope="row">Meggings</th>
-                <td>Freegan</td>
-                <td>Retro biodiesel</td>
-                <td>Slow-carb</td>
-            </tr>
-            <tr>
-                <th scope="row">Vegan</th>
-                <td>Occupy</td>
-                <td>Normcore</td>
-                <td>Put a bird on it</td>
-            </tr>
-            <tr>
-                <th scope="row">Next level</th>
-                <td>Selfies</td>
-                <td>Sustainable</td>
-                <td>Organic</td>
-            </tr>
-            <tr>
-                <th scope="row">Umami</th>
-                <td>Asymmetrical</td>
-                <td>Keytar</td>
-                <td>Craft beer</td>
-            </tr>
-            <tr>
-                <th scope="row">Biodiesel</th>
-                <td>Haven’t heard</td>
-                <td>Skateboard</td>
-                <td>Farm-to-table</td>
-            </tr>
-        </table>
-    </section>
+<section class="slide compact">
+  <h2>Client-State Manipulation</h2>
 
-    <section class="slide prism">
-        <h2>Listing Slide</h2>
+  <img src="https://i.imgflip.com/3n6uvp.jpg" class="place left" width="350" alt="" style="margin-left: 50px"/>
+  <img src="http://devhumor.com/content/uploads/images/July2017/client-side-validation.jpg" class="place right" width="500" alt=""/>
+</section>
 
-        <pre style="font-size: 45px;" class="language-javascript line-numbers">
-            <code>
-                function wrap(value) {
-                    return function () {
-                        return value;
-                    }
-                }
+<section class="slide compact">
+  <h2>Cross-Site Request Forgery</h2>
+  <p>When a browser makes requests to a site, it always sends along any cookies it has for that site, regardless of where the request comes from. Additionally, web servers generally cannot distinguish between a request initiated by a deliberate user action (e.g., user clicking on "Submit" button) versus a request made by the browser without user action (e.g., request for an embedded image in a page). Therefore, if a site receives a request to perform some action (like deleting a mail, changing contact address), it cannot know whether this action was knowingly initiated by the user — even if the request contains authentication cookies. An attacker can use this fact to fool the server into performing actions the user did not intend to perform.</p>
+</section>
+<section class="slide compact">
+  <h2>Cross-Site Request Forgery</h2>
+  <img src="https://i.ytimg.com/vi/ZSbvMhkfMYE/maxresdefault.jpg" width="800" alt=""/>
+</section>
+<section class="slide compact">
+  <h2>Cross Site Script Inclusion (XSSI)</h2>
+  <p>Browsers prevent pages of one domain from reading pages in other domains. But they do not prevent pages of a domain from referencing resources in other domains. In particular, they allow images to be rendered from other domains and scripts to be executed from other domains.</p>
+  <img src="images/xssi.png" height="200" alt=""/>
+  <a href="https://www.scip.ch/en/?labs.20160414">More info</a>
+</section>
+<section class="slide compact">
+  <h2>Path Traversal</h2>
+  <p>Most web applications serve static resources like images and CSS files. Frequently, applications simply serve all the files in a folder. If the application isn't careful, the user can use a path traversal attack to read files from other folders that they shouldn't have access to.</p>
+</section>
+<section class="slide compact">
+  <h2>Sensitive data storage</h2>
+  <p>It's dangerous to store sensitive data, like passwords or credit card data in plain text – we can never be sure we won't get hacked. Store hashed passwords, use symmetric or asymmetric encryption.</p>
+</section>
+<section class="slide compact">
+  <h2>Target="_blank" attack</h2>
+  <p>The page we're linking to gains partial access to the linking page via the window.opener object.</p>
 
-                function bind(monad, f) {
-                    return f(monad());
-                }
-            </code>
-        </pre>
-    </section>
+  <p>The newly opened tab can then change the window.opener.location to some phishing page. Users trust the page that is already opened, they won't get suspicious.
+  </p>
+</section>
+<section class="slide compact">
+  <h2>Bad server configuration attacks</h2>
+  <ol>
+    <li>No https – Man in the middle attack</li>
+    <li>Open ports – nmap scan</li>
+    <li>No rate limiting – DDoS attacks</li>
+  </ol>
+</section>
+<section class="slide compact">
+  <h2>Further exploration</h2>
+  <ol>
+    <li>owasp.org – The Open Web Application Security Project</li>
+    <li>OWASP Juice Shop is probably the most modern and sophisticated insecure web application!</li>
+    <li>Google Gruyere – basically same thing</li>
+  </ol>
+</section>
 
-    <section class="slide prism">
-        <pre style="font-size: 30px;" class="language-javascript line-numbers">
-            <code>
-                var monad = wrap('cookie');
-                bind(monad, (value) => {
-                    console.info(value);
-                    return wrap(value);
-                });
-                monad = bind(monad, (value) => {
-                    return wrap({ type: value });
-                });
-                bind(monad, (value) => {
-                    console.log(value);
-                    return wrap(value);
-                });
-            </code>
-        </pre>
-    </section>
+<section class="slide">
+  <h3 class="shout">See you next month at WarsawJS</h3>
+</section>
 
-    <section class="slide">
-        <h2 class="shout"><a href="">Linked</a> Shout</h2>
-    </section>
+<div class="progress"></div>
 
-    <section class="slide">
-        <h2 class="shout grow">Effect: Growing Shout</h2>
-    </section>
+<footer class="badge">
+  <a href="https://github.com/warsawjs/warsawjs-slides-template">Fork me on GitHub</a>
+</footer>
 
-    <section class="slide">
-        <h2 class="shout shrink">Effect: Shrinking Shout</h2>
-    </section>
+<footer class="badge badge-top-left">
+  <a href="#" class="fullscreen">Fullscreen</a>
+</footer>
 
-    <section class="slide">
-        <figure>
-            <img class="cover" src="vendors/shower-ribbon/pictures/exact.png" alt="">
-            <figcaption class="white">Copyright © 2016 <a href="">Yours Truly</a>, Famous Inc.</figcaption>
-        </figure>
-    </section>
+<script src="vendors/gamepad/gamepad.js"></script>
+<script src="vendors/shower/shower.min.js"></script>
+<script src="vendors/shower-gamepad/shower.gamepad.js"></script>
+<script src="vendors/shower-warsawjs/scripts/fullscreen.js"></script>
 
-    <section class="slide">
-        <img class="cover" src="vendors/shower-ribbon/pictures/tall.png" alt="">
-    </section>
-
-    <section class="slide">
-        <img class="cover" src="vendors/shower-ribbon/pictures/wide.png" alt="">
-    </section>
-
-    <section class="slide white">
-        <img class="place top left" src="vendors/shower-ribbon/pictures/square.png" alt="">
-        <img class="place top" src="vendors/shower-ribbon/pictures/square.png" alt="">
-        <img class="place top right" src="vendors/shower-ribbon/pictures/square.png" alt="">
-
-        <img class="place left" src="vendors/shower-ribbon/pictures/square.png" alt="">
-        <img class="place" src="vendors/shower-ribbon/pictures/square.png" alt="">
-        <img class="place right" src="vendors/shower-ribbon/pictures/square.png" alt="">
-
-        <img class="place bottom left" src="vendors/shower-ribbon/pictures/square.png" alt="">
-        <img class="place bottom" src="vendors/shower-ribbon/pictures/square.png" alt="">
-        <img class="place bottom right" src="vendors/shower-ribbon/pictures/square.png" alt="">
-    </section>
-
-    <section class="slide" data-timing="00:03">
-        <h3 class="shout">Automatic switch slide after <strong>3 secs</strong> ...</h3>
-    </section>
-
-    <section class="slide">
-        <img class="cover" src="images/gifs/example-gif.gif" width="480" height="360" alt=""/>
-    </section>
-
-    <section class="slide">
-        <h3 class="shout">See you next month at WarsawJS</h3>
-    </section>
-
-    <div class="progress"></div>
-
-    <footer class="badge">
-        <a href="https://github.com/warsawjs/warsawjs-slides-template">Fork me on GitHub</a>
-    </footer>
-
-    <footer class="badge badge-top-left">
-        <a href="#" class="fullscreen">Fullscreen</a>
-    </footer>
-
-    <script src="vendors/gamepad/gamepad.js"></script>
-    <script src="vendors/shower/shower.min.js"></script>
-    <script src="vendors/shower-gamepad/shower.gamepad.js"></script>
-    <script src="vendors/shower-warsawjs/scripts/fullscreen.js"></script>
-
-    <!-- Prism.js -->
-    <script src="vendors/prism/prism.js"></script>
-    <script src="vendors/prism/custom-prism.js"></script>
+<!-- Prism.js -->
+<script src="vendors/prism/prism.js"></script>
+<script src="vendors/prism/custom-prism.js"></script>
 </body>
 </html>
